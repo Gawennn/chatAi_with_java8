@@ -1,0 +1,9 @@
+server:
+  port: 8055
+  servlet:
+    context-path: /api
+
+ai:
+  ollama:
+    url: http://localhost:11434
+    model: qwen3:1.7b
